@@ -1,0 +1,24 @@
+[theme]
+base = "light"
+primaryColor = "#1A8A8A"
+backgroundColor = "#F7F8FA"
+secondaryBackgroundColor = "#F4F1EA"
+textColor = "#1A2332"
+font = "sans serif"
+
+[server]
+headless = true
+fileWatcherType = "none"
+# Public Cloud demo: keep uploads modest (anti-abuse / memory).
+maxUploadSize = 15
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+showErrorDetails = false
+
+[runner]
+fastReruns = true
